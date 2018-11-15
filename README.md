@@ -1,7 +1,9 @@
 # Tvmaze
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+Aplicación Angular que usa el API de TvMaze `https://www.tvmaze.com/api` para mostrar información sobre las series que se emiten en el día de hoy en EEUU.
 
+Aplicación de ejemplo para el módulo *Desarrollo Web en Entorno Cliente* del ciclo de **Desarrollo de Aplicaciones Web** del [Colegio Zabalburu](http://www.zabalburu.org).
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
