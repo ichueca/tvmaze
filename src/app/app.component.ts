@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MisSeries';
+  title = 'SeriesApp';
   shows;
   constructor(private http:HttpClient){
     http.get('http://api.tvmaze.com/schedule',{
