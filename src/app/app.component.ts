@@ -6,13 +6,13 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tvmaze';
+  title = 'MisSeries';
   shows;
   constructor(private http:HttpClient){
     http.get('http://api.tvmaze.com/schedule',{
       params: {
         country:'ES',
-        date:'2018-11-24'
+        date:'2018-11-23'
       }
     }).subscribe( param => {
       console.log(param);
