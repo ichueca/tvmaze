@@ -12,7 +12,7 @@ export class AppComponent {
     http.get('http://api.tvmaze.com/schedule',{
       params: {
         country:'ES',
-        date:'2018-10-24'
+        date:'2018-11-24'
       }
     }).subscribe( param => {
       console.log(param);
